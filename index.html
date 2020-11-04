@@ -18,9 +18,9 @@ else
 xmlhttp.open("GET","demo.xml",true);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
-document,getElementsBy("to").innerHTML=xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue;
-document,getElementsBy("from").innerHTML=xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
-document,getElementsBy("message").innerHTML=xmlDoc.getElementsByTagName("message")[0].childNodes[0].nodeValue;
+document.getElementsBy("to").innerHTML=xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue;
+document.getElementsBy("from").innerHTML=xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
+document.getElementsBy("message").innerHTML=xmlDoc.getElementsByTagName("message")[0].childNodes[0].nodeValue;
 ML=xmlDoc.getElementsByTagName("body").innerHTML=xmlDoc.getElementsByTagName("body")[0].childNodes[0].nodeValue;
 
 </script>
